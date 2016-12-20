@@ -1,12 +1,13 @@
 {
-  "name": "react-redux-template",
+  "name": "react-redux",
+  "description": "Just a simple start template for react redux with scss inside",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
     "dev": "webpack",
     "start": "webpack-dev-server"
   },
-  "license": "ISC",
+  "license": "Open",
   "dependencies": {
     "babel-core": "^6.10.4",
     "babel-loader": "^6.2.4",
