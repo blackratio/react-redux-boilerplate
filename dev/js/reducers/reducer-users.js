@@ -1,6 +1,6 @@
 // Function that Store the users
-//
-//Return an array of users
+// Return an array of users
+
 export default function() {
    return [
       {
@@ -24,5 +24,5 @@ export default function() {
          age: 78,
          weight: 79
       }
-   ]
+   ];
 }

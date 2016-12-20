@@ -1,5 +1,5 @@
-import React, {Component} from 'react';
-import {connect} from 'react-redux';
+import React, { Component } from 'react';
+import { connect } from 'react-redux';
 
 class UserDetail extends Component {
    render() {
@@ -13,7 +13,7 @@ class UserDetail extends Component {
             <h3>Age: {this.props.user.age}</h3>
             <h3>Weight: {this.props.user.weight}</h3>
          </div>
-      )
+      );
    }
 }
 
