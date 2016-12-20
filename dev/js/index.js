@@ -6,9 +6,11 @@ import { createStore } from 'redux';
 import allReducers from './reducers';
 import App from './components/app';
 
-// Cretae gloabal store
+// Create global store
+// Configuration - Redux devtools
 const store = createStore(allReducers, window.__REDUX_DEVTOOLS_EXTENSION__ && window.__REDUX_DEVTOOLS_EXTENSION__());
 
+// Render App in DOM
 ReactDOM.render(
    <Provider store={store}>
       <App />
