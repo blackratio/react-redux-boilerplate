@@ -4,7 +4,8 @@ import ReactDOM from 'react-dom';
 import { Provider } from 'react-redux';
 import { createStore } from 'redux';
 import allReducers from './reducers';
-import App from './components/app';
+import { Router, browserHistory } from 'react-router';
+import routes from './routes';
 
 // Create global store
 // Configuration - Redux devtools
@@ -13,5 +14,6 @@ const store = createStore(allReducers, window.__REDUX_DEVTOOLS_EXTENSION__ && wi
 // Render App in DOM
 ReactDOM.render(
    <Provider store={store}>
-      <App />
-   </Provider>, document.getElementById('root'));
+      <Router history={browserHistory} routes={routes}/>
+   </Provider>
+   , document.getElementById('root'));

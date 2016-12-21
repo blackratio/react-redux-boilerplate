@@ -1,9 +1,10 @@
 import React from 'react';
-import UserList from '../containers/user-list';
 import UserDetail from '../containers/user-detail';
+import UserList from '../containers/user-list';
+
 require('./app.scss');
 
-const App = () => (
+const Apps = () => (
    <div>
       <h2>Users list name</h2>
       <UserList />
@@ -12,4 +13,4 @@ const App = () => (
    </div>
 );
 
-export default App;
+export default Apps;
