@@ -1,6 +1,6 @@
 {
   "name": "react-redux",
-  "description": "Just a simple start template for react redux with scss inside",
+  "description": "Simple start template for react redux with scss inside",
   "version": "1.0.0",
   "main": "index.js",
   "scripts": {
