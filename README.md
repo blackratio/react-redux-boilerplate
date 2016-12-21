@@ -4,14 +4,19 @@ Build a React Redux app
 
 ## Getting Started
 
-Install the necessary dependencies.
+Install Yarn if you don't have it (recommended), else npm install
 ```
-> npm install
+> brew install yarn
 ```
 
-Start the dev server
+Install package dependencies.
+```
+> yarn
+```
+
+Start dev server
 ```
 > npm run start
 ```
 
-View project at: [http://localhost:3000/](http://localhost:3000/)
+Open project at: [http://localhost:3000/](http://localhost:3000/)
