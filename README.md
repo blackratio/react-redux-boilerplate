@@ -19,4 +19,4 @@ Start dev server
 > npm run start
 ```
 
-Open project at: [http://localhost:3000/](http://localhost:3000/)
+Open project at: [http://localhost:8888/](http://localhost:8888/)
